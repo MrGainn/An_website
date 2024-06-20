@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .heart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .heart {
+            font-size: 400px;
+            color: red;
+            animation: beat 1s infinite alternate;
+        }
+
+        @keyframes beat {
+            to {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Lekker an, alle vragen goed!!!</h1>
+    <div class="heart-container">
+        <div class="heart">&hearts;</div>
+    </div>
+    <h1>Heb geen prijs, maar hier heb je een beating heart :)</h1>
+</body>
+</html>
